@@ -1,0 +1,105 @@
+/* === ESTILO GENERAL === */
+body {
+  background-color: #0d0d0d;
+  color: #e5e5e5;
+  font-family: 'Orbitron', sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+/* === ENCABEZADO === */
+header {
+  background-color: #0d0d0d;
+  border-bottom: 2px solid #00ffff;
+  box-shadow: 0 0 15px #00ffff66;
+  padding: 15px 0;
+  text-align: center;
+}
+
+h1 {
+  color: #ff3131;
+  font-size: 2.8rem;
+  text-shadow: 0 0 20px #ff0000;
+  margin-bottom: 10px;
+}
+
+/* === MENÚ DE NAVEGACIÓN === */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+nav a {
+  color: #00ffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #ff3131;
+  text-shadow: 0 0 10px #ff3131;
+}
+
+/* === CONTENIDO PRINCIPAL === */
+section {
+  background-color: #111;
+  border-radius: 10px;
+  width: 80%;
+  margin: 40px auto;
+  padding: 25px;
+  box-shadow: 0 0 25px #00ffff33;
+}
+
+p {
+  text-align: justify;
+  font-size: 1.1rem;
+}
+footer {
+  background-color: #0a0a0a;
+  border-top: 2px solid #00ffff33;
+  box-shadow: 0 -5px 15px #00ffff22;
+  color: #aaa;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer-contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 10px;
+  filter: drop-shadow(0 0 10px #ff3131);
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.footer-logo:hover {
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 20px #ff3131);
+}
+
+.footer-texto h3 {
+  color: #ff3131;
+  margin-bottom: 5px;
+  font-size: 1.3rem;
+  text-shadow: 0 0 10px #ff3131;
+}
+
+.footer-texto p {
+  margin: 3px 0;
+  font-size: 0.95rem;
+  color: #00ffff;
+}
+.card-img-top {
+  height: 240px;
+  object-fit: cover;
+  width: 100%;
+}
